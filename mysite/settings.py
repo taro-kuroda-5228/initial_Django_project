@@ -30,9 +30,14 @@ except ImportError:
     pass
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", ".pythonanywhere.com", "tkuroda.pythonanywhere.com"]
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    ".pythonanywhere.com",
+    "tkuroda.pythonanywhere.com",
+]
 
 
 # Application definition
